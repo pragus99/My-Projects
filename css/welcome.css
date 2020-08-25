@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to left, rgb(221, 134, 134), rgb(75, 37, 37));
+}
+
+h1 {
+    margin: 50px auto 20px auto;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+}
+
+#nama {
+    margin: 20px 0 10px 0;
+    border-radius: 5px;
+    border: none
+}
+/* 
+#email {
+    margin: 10px 0 15px 0;
+    border-radius: 5px;
+    border: none
+} 
+*/
+
+form {
+    color: white;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(76, 74, 71);
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+#submit {
+    margin-bottom: 15px;
+    padding: 2px;
+}
