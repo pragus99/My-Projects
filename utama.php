@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+if ( !isset($_SESSION["login"]) ) {
+    header("Location: index.php");
+    exit;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,13 +19,12 @@
 </head>
 
 <body>
+    <h1>Selamat datang, admin.</h1>
     <div>
-        Selamat datang, Admin.
-        <br>
         <ul>
         <li><a href="daftar.php">Daftar Anggota Keluarga</a></li>
-        <li><a href="tambah.php">Tambah Anggota Kelurga</a></li>
-        <li><a href="logout.php" onclick="return confirm('Yakin hapus?')">Logout</a></li>
+        <li><a href="tambah.php">Tambah Anggota Keluarga</a></li> <br>
+        <li><a href="logout.php" onclick="return confirm('Yakin keluar?')" class="out">Logout</a></li>
         </ul>
     </div>
 </body>

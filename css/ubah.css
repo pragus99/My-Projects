@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(16, 158, 214));
+}
+
+nav {
+    background-color: steelblue;
+    height: 45px;
+}
+
+.nav-li:first-child {
+    margin-left: 15px;
+}
+
+.nav-li{
+    margin-top: 10px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+a {
+    color: wheat;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+fieldset {
+    border: 2px solid black;
+    width: 250px;
+    margin: 90px auto;
+    padding: 10px 20px;
+}
+
+input {
+    width: 200px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input-li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+button {
+    margin: 15px 0;
+    padding: 5px;
+}

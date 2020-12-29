@@ -7,18 +7,32 @@ body {
     background-image: linear-gradient(to left, rgb(221, 134, 134), rgb(75, 37, 37));
 }
 
-h1 {
-    margin: 50px auto 20px auto;
+p {
     text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+h1 {
+    margin: 170px auto 20px auto;
+    text-align: center;
+    font-size: 45px;
     color: #FFFFFF;
     text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
 }
 
-#username,#password,#password2 {
-    margin: 0 0 10px 0;
+label {
+    font-size: 20px;
+}
+
+#username,#password {
+    margin: 5px auto 10px auto;
     border-radius: 5px;
     border: none;
-    width: 200px;
+    width: 300px;
+    height: 25px;
 }
 
 form {
@@ -26,17 +40,16 @@ form {
     color: white;
     margin: 0 auto;
     font-weight: bold;
-    padding: 10px;
+    padding: 50px;
     background-color: rgb(76, 74, 71);
-    max-width: 230px;
+    max-width: 400px;
+    height: 300px;
     border-radius: 10px;
 }
 
-ul li {
-    list-style-type: none;
-}
-
 button {
-    margin-bottom: 15px;
+    margin: 20px auto 0 auto;
     padding: 5px;
+    width: 300px;
+    display: block;
 }

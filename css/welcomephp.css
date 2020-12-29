@@ -7,18 +7,31 @@ body {
     background-image: linear-gradient(to left, rgb(221, 134, 134), rgb(75, 37, 37));
 }
 
+h1 {
+    text-align: center;
+    margin: 100px 0 20px 0;
+    color: #FFFFFF;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+}
+
 div {
     color: white;
-    margin: 150px auto;
+    margin: 50px auto;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
     background-color: rgb(76, 74, 71);
-    max-width: 600px;
+    max-width: 1000px;
     border-radius: 10px;
     padding: 30px;
 }
 
 ul li {
     list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a {
+    color: snow;
 }
