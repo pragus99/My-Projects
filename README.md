@@ -1,4 +1,5 @@
-# PHP
+## PHP
 
-Halaman web berdasarkan PHP dengan CRUD(mysqli) daftar anggota keluarga.
-Lengkap dengan built-in login dan logout.
+App web where you can management list of people. you must login (contact me if you need) if you want use it.
+
+website : http://pragus.ga/
