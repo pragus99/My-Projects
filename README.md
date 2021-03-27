@@ -1,5 +1,15 @@
-## PHP
 
-App web where you can management list of people. you must login (contact me if you need) if you want use it.
 
-website : http://pragus.ga/
+# People Data
+
+> App web where you can management data of people.
+
+## Prerequisites
+
+PHP 7 or later
+
+## website 
+
+http://pragus.ga/
+
+Contact me first if you want to try it on my website
